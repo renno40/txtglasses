@@ -37,8 +37,8 @@ class _SettingsPageState extends State<SettingsPage> {
                 children: [
                   Row(
                     children: [
-                      Icon(Icons.person, size: 50, color: Colors.black),
-                      SizedBox(width: 10),
+                      Icon(Icons.person, size: 80, color: Colors.lightBlueAccent),
+                      SizedBox(width: 20),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -70,8 +70,8 @@ class _SettingsPageState extends State<SettingsPage> {
                   _buildSettingsButton(Icons.person, "Account Settings", "Privacy, Security, Language"),
                   _buildSettingsButton(Icons.notifications, "Notifications", "Newsletter, App Updates"),
                   SizedBox(height: 30),
-                  _buildActionButton(Icons.exit_to_app, "Logout", Colors.red),
-                  _buildActionButton(Icons.delete, "Delete Account", Colors.grey),
+                  _buildActionButton(Icons.exit_to_app, "Logout", Colors.blue),
+                  _buildActionButton(Icons.delete, "Delete Account", Colors.red),
                 ],
               ),
             ),
@@ -138,7 +138,7 @@ class _SettingsPageState extends State<SettingsPage> {
         style: ElevatedButton.styleFrom(
           backgroundColor: color,
           foregroundColor: Colors.white,
-          padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+          padding: EdgeInsets.symmetric(horizontal: 70, vertical: 20),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
           ),
